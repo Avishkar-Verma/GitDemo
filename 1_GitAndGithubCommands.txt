@@ -63,7 +63,7 @@ Scenario - It also help to keep change in stash and fix production issue and lat
 >> git stash -m "custom stash name" (this is used to create stash by own custom name for recognition)
 >> git stash drop 1 (this is to drop/delete the stash, 1 is index number or you may use the custom stash name u want to delete)
 
-(Cloning of application): 
+Cloning of application: 
 >> Go to the directory where you want to clone the entire application and open command prompt
 >> copy the HTTP code url from git global GUI repository
 >> run command on cmd : git clone https://github.com/Avishkar-Verma/GitDemo.git
