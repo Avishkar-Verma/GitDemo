@@ -42,4 +42,23 @@ Below steps are to push the files on global git repository:
 >> git status
 >> git commit -m "Commit Message" 
 (After above command - Sometime message comes to set the remote as upstream by git push --set-upstream origin master command, so run it to push the current branch) 
->> git push
+>> git push origin main(main is branch  in which you want to commit)
+
+
+Branches:
+git checkout -b main (this command make new branch)
+git checkout main (to switch between branch to main or master or anyother)
+git fetch --all
+git branch --all
+git branch -r ( to see branches of remote repository)
+git branch ( to see branches of local)
+
+Stash : ( It is like a snapshot which you don't want to commit but want to keep in local directory. 
+It also help in case of multiple commits rather than single commit.
+Scenario - It also help to keep change in stash and fix production issue and later continue on development work)
+>> git add . (Use only if to track the changes and ready to commit stage )
+>> git stash (doing stach work and make new stash)
+>> git stash list (show common list amoung all branches of all the stashes)
+>> git stash apply 0(index number) (to reapply the changes stored in the stash)
+>> git stash -m "custom stash name" (this is used to create stash by own custom name for recognition)
+>> git stash drop 1 (this is to drop/delete the stash, 1 is index number or you may use the custom stash name u want to delete)
