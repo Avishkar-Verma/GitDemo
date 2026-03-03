@@ -1,0 +1,45 @@
+Git >> Version Control
+
+    v1
+    v2
+    v3
+new v4
+
+>> It is distributed (on Cloud)
+>> Collaboration
+>> Tracking Changes
+>> Recovery
+
+https://git-scm.com/downloads
+
+GitHub
+BitBucket
+GitLabs
+GitPod
+
+>> For 1st time need to configure github in our system
+git config --global user.name "Avishkar-Verma"
+git config --global user.email "avishkarverma1@gmail.com"
+
+git config --global color.ui auto 
+(above command will use some colors automatic suggestions on the github as well)
+
+
+
+Mandatory Commands:
+>> git init
+>> git remote add origin https://github.com/Avishkar-Verma/GitDemo.git 
+(above command make remote connection for our application - to make a successful connection with local editor to our global github account)
+
+
+>> git pull origin main 
+(above pull(Cloning of application) command is used to fetch files from global git account to local editor)
+
+Below steps are to push the files on global git repository:
+>> git status
+>> git add . 
+(. add all the files or use filenames with spaces instead of . eg: git add file1 file2)
+>> git status
+>> git commit -m "Commit Message" 
+(After above command - Sometime message comes to set the remote as upstream by git push --set-upstream origin master command, so run it to push the current branch) 
+>> git push
