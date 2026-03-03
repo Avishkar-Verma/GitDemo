@@ -76,3 +76,4 @@ How to get a specific file from another branch into your current working branch:
     (above day1Branch is source-branch-name and after -- is path to the file i.e. masterbranch.txt)
 >> git add masterbranch.txt
 >> git commit -m "Retrieved masterbranch.txt file from day1Branch"
+>> git push origin master (commit to the current branch master)
