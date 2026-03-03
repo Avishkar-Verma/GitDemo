@@ -46,7 +46,7 @@ Below steps are to push the files on global git repository:
 
 
 Branches:
-git checkout -b main (this command make new branch)
+git checkout -b "main" (this command make new branch, "main" is the branch name to create)
 git checkout main (to switch between branch to main or master or anyother)
 git fetch --all
 git branch --all
